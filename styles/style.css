@@ -1,0 +1,71 @@
+:root{
+    
+  --ff-inter: "Inter", sans-serif;
+ 
+
+}
+
+
+
+
+body{
+    background-color: hsl(0,0%,8%);
+    padding-top:20vh;
+    padding-bottom:20vh ;
+}
+.main-container{
+    background-color: hsl(0,0%,12%);
+    height: auto;
+    width: 300px;
+    margin: auto;
+    border-radius: 7px ;
+    text-align: center;
+    padding: 20px;
+    
+}
+.avatar{
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    object-fit: cover;
+    
+}
+.img-container{
+    padding-top: 20px;
+}
+.img-text{
+font-family: var(--ff-inter);
+color:hsl(75, 94%, 57%);
+}
+.jess{
+  color: hsl(0, 0%, 100%);
+  
+}
+.link-container{
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+p{
+      font-family: var(--ff-inter);
+       color: hsl(0, 0%, 100%);
+}
+.link{
+   text-decoration: none; 
+   margin: auto;
+   font-family: var(--ff-inter);
+   text-decoration: none;
+   display: block;
+   line-height: 40px;
+}
+.link:hover{
+color: blue;
+text-decoration: underline;
+}
+.link:link,.link:visited{
+   color: hsl(0, 0%, 100%);
+
+}
